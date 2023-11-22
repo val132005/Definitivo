@@ -11,7 +11,7 @@ app.config['ALLOWED_EXTENSIONS'] = {'png', 'jpg', 'svg'}
 
 init_app(app)
 
-app.secret_key = os.urandom(254)
+app.secret_key = os.urandom(24)
 
 
 # @app.route('/habilidad', methods=['POST'])
